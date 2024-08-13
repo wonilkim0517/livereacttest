@@ -6,7 +6,7 @@ const LiveHlsPlayer = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        const streamUrl = "http://localhost/hls/1_playlist.m3u8";
+        const streamUrl = "https://kim11.shop/hls/1_playlist.m3u8";
         console.log("Loading HLS stream from URL:", streamUrl);
 
         if (Hls.isSupported()) {

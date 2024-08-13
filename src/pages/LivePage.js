@@ -25,7 +25,7 @@ const LivePage = () => {
         console.log("Component mounted, video element:", videoRef.current);
 
         // WebSocket 연결 설정
-        const socket = new SockJS('http://localhost:8080/ws-stomp');
+        const socket = new SockJS('https://kim11.shop:8080/ws-stomp');
         const stompClient = Stomp.over(() => socket);
 
         stompClient.connect({}, () => {
@@ -53,13 +53,13 @@ const LivePage = () => {
         const filename = 'example'; // 실제 파일 이름으로 교체해야 합니다
 
         // 비디오 스트림 가져오기
-        fetch(`https://suportscore.site/api/video/stream/${filename}`)
+        fetch(`https://kim11.shop/api/video/stream/${filename}`)
             .then(response => response.json())
             .then(data => setLiveStream(data))
             .catch(error => console.error('Error fetching live stream:', error));
 
         // 채팅방 생성
-        fetch('https://suportscore.site/api/chat/room', {
+        fetch('https://kim11.shop/api/chat/room', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -71,13 +71,13 @@ const LivePage = () => {
             .catch(error => console.error('Error creating chat room:', error));
 
         // 채팅 사용자 정보 조회
-        fetch('https://suportscore.site/api/chat/user')
+        fetch('https://kim11.shop/api/chat/user')
             .then(response => response.json())
             .then(data => setChatUser(data))
             .catch(error => console.error('Error fetching chat user:', error));
 
         // 채팅 메시지 가져오기
-        fetch('https://suportscore.site/api/comments')
+        fetch('https://kim11.shop/api/comments')
             .then(response => response.json())
             .then(data => setComments(data))
             .catch(error => console.error('Error fetching comments:', error));
@@ -99,7 +99,7 @@ const LivePage = () => {
     const startWebcamStream = async () => {
         try {
             console.log("Starting webcam stream for match ID:", matchId);
-            await axios.post(`http://localhost:8080/api/live/webcam/start/${matchId}`);
+            await axios.post(`https://kim11.shop/api/live/webcam/start/${matchId}`);
             setStreamStatus('active');
             console.log("Webcam stream started, loading HLS stream...");
             loadHlsStream();
@@ -112,7 +112,7 @@ const LivePage = () => {
     const stopWebcamStream = async () => {
         try {
             console.log("Stopping webcam stream for match ID:", matchId);
-            await axios.post(`http://localhost:8080/api/live/webcam/stop/${matchId}`);
+            await axios.post(`https://kim11.shop/api/live/webcam/stop/${matchId}`);
             setStreamStatus('stopped');
             if (hlsRef.current) {
                 console.log("Destroying HLS instance");
@@ -127,7 +127,7 @@ const LivePage = () => {
     };
 
     const loadHlsStream = () => {
-        const streamUrl = `http://localhost/hls/${matchId}_playlist.m3u8`;
+        const streamUrl = `https://kim11.shop/hls/${matchId}_playlist.m3u8`;
         console.log("Loading HLS stream from URL:", streamUrl);
 
         if (Hls.isSupported()) {
@@ -173,7 +173,7 @@ const LivePage = () => {
             setComments(updatedComments);
             setNewComment('');
 
-            fetch('https://suportscore.site/api/comments', {
+            fetch('https://kim11.shop/api/comments', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

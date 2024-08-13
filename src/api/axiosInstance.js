@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8080',  // 로컬 서버를 가리키도록 baseURL 수정
+  baseURL: 'https://kim11.shop',  // 로컬 서버를 가리키도록 baseURL 수정
   headers: {
     'Content-Type': 'application/json',
   },
