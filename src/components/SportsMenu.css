@@ -1,0 +1,26 @@
+.sports-menu {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #fff; 
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc; 
+}
+
+.sports-menu-item {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sports-menu-item:hover {
+  color: #155693;
+}
+
+.sports-menu-item.active {
+  color: #155693; 
+  font-weight: bold;
+}

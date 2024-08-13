@@ -1,0 +1,482 @@
+{
+  "1": {
+    "pastRecords": [
+      { "department": "화학생명공학과", "win": 7, "draw": 2, "lose": 3, "points": 23 },
+      { "department": "영어영문학과", "win": 6, "draw": 3, "lose": 3, "points": 21 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "영어영문학과", "win": 7, "draw": 2, "lose": 3 }
+        ]
+      },
+      {
+        "department": "영어영문학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 6, "draw": 3, "lose": 3 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "첫 번째 댓글!" },
+      { "text": "두 번째 댓글!" }
+    ]
+  },
+  "2": {
+    "pastRecords": [
+      { "department": "식품영양학과", "win": 5, "draw": 1, "lose": 4, "points": 16 },
+      { "department": "생활체육학과", "win": 6, "draw": 1, "lose": 3, "points": 19 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "식품영양학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 5, "draw": 1, "lose": 4 }
+        ]
+      },
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "식품영양학과", "win": 6, "draw": 1, "lose": 3 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "세 번째 댓글!" },
+      { "text": "네 번째 댓글!" }
+    ]
+  },
+  "3": {
+    "pastRecords": [
+      { "department": "컴퓨터공학과", "win": 10, "draw": 2, "lose": 3, "points": 32 },
+      { "department": "건축학과", "win": 4, "draw": 2, "lose": 9, "points": 14 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "건축학과", "win": 10, "draw": 2, "lose": 3 }
+        ]
+      },
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 4, "draw": 2, "lose": 9 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "다섯 번째 댓글!" },
+      { "text": "여섯 번째 댓글!" }
+    ]
+  },
+  "4": {
+    "pastRecords": [
+      { "department": "영어영문학과", "win": 6, "draw": 3, "lose": 5, "points": 21 },
+      { "department": "화학생명공학과", "win": 7, "draw": 1, "lose": 6, "points": 22 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "영어영문학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 6, "draw": 3, "lose": 5 }
+        ]
+      },
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "영어영문학과", "win": 7, "draw": 1, "lose": 6 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "일곱 번째 댓글!" },
+      { "text": "여덟 번째 댓글!" }
+    ]
+  },
+  "5": {
+    "pastRecords": [
+      { "department": "건축학과", "win": 5, "draw": 1, "lose": 4, "points": 16 },
+      { "department": "생활체육학과", "win": 6, "draw": 1, "lose": 3, "points": 19 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 5, "draw": 1, "lose": 4 }
+        ]
+      },
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "건축학과", "win": 6, "draw": 1, "lose": 3 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "아홉 번째 댓글!" },
+      { "text": "열 번째 댓글!" }
+    ]
+  },
+  "6": {
+    "pastRecords": [
+      { "department": "화학생명공학과", "win": 5, "draw": 2, "lose": 3, "points": 17 },
+      { "department": "컴퓨터공학과", "win": 7, "draw": 1, "lose": 4, "points": 22 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 5, "draw": 2, "lose": 3 }
+        ]
+      },
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 7, "draw": 1, "lose": 4 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "열한 번째 댓글!" },
+      { "text": "열두 번째 댓글!" }
+    ]
+  },
+  "7": {
+    "pastRecords": [
+      { "department": "식품영양학과", "win": 8, "draw": 3, "lose": 2, "points": 27 },
+      { "department": "생활체육학과", "win": 9, "draw": 1, "lose": 3, "points": 28 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "식품영양학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 8, "draw": 3, "lose": 2 }
+        ]
+      },
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "식품영양학과", "win": 9, "draw": 1, "lose": 3 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "열세 번째 댓글!" },
+      { "text": "열네 번째 댓글!" }
+    ]
+  },
+  "8": {
+    "pastRecords": [
+      { "department": "컴퓨터공학과", "win": 5, "draw": 1, "lose": 4, "points": 16 },
+      { "department": "건축학과", "win": 6, "draw": 1, "lose": 3, "points": 19 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "건축학과", "win": 5, "draw": 1, "lose": 4 }
+        ]
+      },
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 6, "draw": 1, "lose": 3 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "열다섯 번째 댓글!" },
+      { "text": "열여섯 번째 댓글!" }
+    ]
+  },
+  "9": {
+    "pastRecords": [
+      { "department": "영어영문학과", "win": 4, "draw": 3, "lose": 3, "points": 15 },
+      { "department": "화학생명공학과", "win": 7, "draw": 2, "lose": 2, "points": 23 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "영어영문학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 4, "draw": 3, "lose": 3 }
+        ]
+      },
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "영어영문학과", "win": 7, "draw": 2, "lose": 2 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "열일곱 번째 댓글!" },
+      { "text": "열여덟 번째 댓글!" }
+    ]
+  },
+  "10": {
+    "pastRecords": [
+      { "department": "생활체육학과", "win": 8, "draw": 1, "lose": 2, "points": 25 },
+      { "department": "건축학과", "win": 5, "draw": 2, "lose": 4, "points": 17 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "건축학과", "win": 8, "draw": 1, "lose": 2 }
+        ]
+      },
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 5, "draw": 2, "lose": 4 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "열아홉 번째 댓글!" },
+      { "text": "스무 번째 댓글!" }
+    ]
+  },
+  "11": {
+    "pastRecords": [
+      { "department": "컴퓨터공학과", "win": 9, "draw": 2, "lose": 3, "points": 29 },
+      { "department": "식품영양학과", "win": 7, "draw": 3, "lose": 4, "points": 24 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "식품영양학과", "win": 9, "draw": 2, "lose": 3 }
+        ]
+      },
+      {
+        "department": "식품영양학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 7, "draw": 3, "lose": 4 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "스물한 번째 댓글!" },
+      { "text": "스물두 번째 댓글!" }
+    ]
+  },
+  "12": {
+    "pastRecords": [
+      { "department": "화학생명공학과", "win": 6, "draw": 2, "lose": 4, "points": 20 },
+      { "department": "영어영문학과", "win": 5, "draw": 1, "lose": 5, "points": 16 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "영어영문학과", "win": 6, "draw": 2, "lose": 4 }
+        ]
+      },
+      {
+        "department": "영어영문학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 5, "draw": 1, "lose": 5 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "스물세 번째 댓글!" },
+      { "text": "스물네 번째 댓글!" }
+    ]
+  },
+  "13": {
+    "pastRecords": [
+      { "department": "건축학과", "win": 4, "draw": 1, "lose": 5, "points": 13 },
+      { "department": "컴퓨터공학과", "win": 8, "draw": 2, "lose": 2, "points": 26 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 4, "draw": 1, "lose": 5 }
+        ]
+      },
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "건축학과", "win": 8, "draw": 2, "lose": 2 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "스물다섯 번째 댓글!" },
+      { "text": "스물여섯 번째 댓글!" }
+    ]
+  },
+  "14": {
+    "pastRecords": [
+      { "department": "식품영양학과", "win": 5, "draw": 2, "lose": 3, "points": 17 },
+      { "department": "생활체육학과", "win": 8, "draw": 1, "lose": 4, "points": 25 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "식품영양학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 5, "draw": 2, "lose": 3 }
+        ]
+      },
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "식품영양학과", "win": 8, "draw": 1, "lose": 4 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "스물일곱 번째 댓글!" },
+      { "text": "스물여덟 번째 댓글!" }
+    ]
+  },
+  "15": {
+    "pastRecords": [
+      { "department": "영어영문학과", "win": 6, "draw": 2, "lose": 5, "points": 20 },
+      { "department": "컴퓨터공학과", "win": 7, "draw": 1, "lose": 4, "points": 22 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "영어영문학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 6, "draw": 2, "lose": 5 }
+        ]
+      },
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "영어영문학과", "win": 7, "draw": 1, "lose": 4 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "스물아홉 번째 댓글!" },
+      { "text": "서른 번째 댓글!" }
+    ]
+  },
+  "16": {
+    "pastRecords": [
+      { "department": "건축학과", "win": 5, "draw": 1, "lose": 4, "points": 16 },
+      { "department": "화학생명공학과", "win": 6, "draw": 1, "lose": 3, "points": 19 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 5, "draw": 1, "lose": 4 }
+        ]
+      },
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "건축학과", "win": 6, "draw": 1, "lose": 3 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "서른한 번째 댓글!" },
+      { "text": "서른두 번째 댓글!" }
+    ]
+  },
+  "17": {
+    "pastRecords": [
+      { "department": "생활체육학과", "win": 7, "draw": 1, "lose": 3, "points": 22 },
+      { "department": "식품영양학과", "win": 5, "draw": 1, "lose": 5, "points": 16 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "식품영양학과", "win": 7, "draw": 1, "lose": 3 }
+        ]
+      },
+      {
+        "department": "식품영양학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 5, "draw": 1, "lose": 5 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "서른세 번째 댓글!" },
+      { "text": "서른네 번째 댓글!" }
+    ]
+  },
+  "18": {
+    "pastRecords": [
+      { "department": "화학생명공학과", "win": 8, "draw": 1, "lose": 4, "points": 25 },
+      { "department": "컴퓨터공학과", "win": 7, "draw": 1, "lose": 5, "points": 22 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "화학생명공학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 8, "draw": 1, "lose": 4 }
+        ]
+      },
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "화학생명공학과", "win": 7, "draw": 1, "lose": 5 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "서른다섯 번째 댓글!" },
+      { "text": "서른여섯 번째 댓글!" }
+    ]
+  },
+  "19": {
+    "pastRecords": [
+      { "department": "건축학과", "win": 5, "draw": 2, "lose": 5, "points": 17 },
+      { "department": "영어영문학과", "win": 6, "draw": 1, "lose": 5, "points": 19 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "건축학과",
+        "records": [
+          { "opponent": "영어영문학과", "win": 5, "draw": 2, "lose": 5 }
+        ]
+      },
+      {
+        "department": "영어영문학과",
+        "records": [
+          { "opponent": "건축학과", "win": 6, "draw": 1, "lose": 5 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "서른일곱 번째 댓글!" },
+      { "text": "서른여덟 번째 댓글!" }
+    ]
+  },
+  "20": {
+    "pastRecords": [
+      { "department": "컴퓨터공학과", "win": 10, "draw": 2, "lose": 3, "points": 32 },
+      { "department": "생활체육학과", "win": 9, "draw": 1, "lose": 4, "points": 28 }
+    ],
+    "departmentRecords": [
+      {
+        "department": "컴퓨터공학과",
+        "records": [
+          { "opponent": "생활체육학과", "win": 10, "draw": 2, "lose": 3 }
+        ]
+      },
+      {
+        "department": "생활체육학과",
+        "records": [
+          { "opponent": "컴퓨터공학과", "win": 9, "draw": 1, "lose": 4 }
+        ]
+      }
+    ],
+    "comments": [
+      { "text": "서른아홉 번째 댓글!" },
+      { "text": "마흔 번째 댓글!" }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+/* Global styles for light and dark themes */
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.App {
+    text-align: center;
+}
+
+/* Login Screen Styles */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.logo-background {
+    position: relative;
+}
+
+.logo {
+    width: 300px !important;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-button {
+    width: 150px;
+    padding: 10px;
+    background-color: #0033a0;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    background-color: #002288;
+}
+
+.signup-prompt {
+    font-size: 14px;
+    color: #555555;
+}
+
+.signup-prompt a {
+    color: #0033a0;
+    text-decoration: none;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* Settings Page Styles */
+.settings-page {
+    padding: 20px;
+}
+
+.settings-section {
+    margin-bottom: 20px;
+}
+
+.theme-options {
+    display: flex;
+    gap: 10px;
+}
+
+.font-size-label {
+    font-size: 1em; /* This will be adjusted dynamically */
+}

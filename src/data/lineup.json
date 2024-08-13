@@ -1,0 +1,16 @@
+[
+  {
+    "lineupId": 11,
+    "matchId": 1,
+    "teamName": "DDD",
+    "department": "컴퓨터공학과",
+    "players": ["Player A", "Player B", "Player C", "Player D", "Player E", "Player F", "Player G"]
+  },
+  {
+    "lineupId": 12,
+    "matchId": 1,
+    "teamName": "EEE",
+    "department": "스포츠산업학과",
+    "players": ["Player H", "Player I", "Player J", "Player K", "Player L", "Player M", "Player N"]
+  }
+]

@@ -1,0 +1,50 @@
+.team-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 화면 높이에 맞추어 가운데 정렬 */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .team-list, .add-team {
+    width: 100%;
+    max-width: 400px; /* 가운데 정렬을 위해 최대 너비 설정 */
+    margin-bottom: 20px;
+  }
+  
+  .team-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .team-item span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .team-item button {
+    margin-left: 10px;
+  }
+  
+  .add-team input {
+    display: block;
+    width: calc(100% - 20px); /* 패딩 포함 너비 설정 */
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .add-team button {
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+  

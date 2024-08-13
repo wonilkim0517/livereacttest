@@ -1,0 +1,179 @@
+.main-page {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e4d92;
+  color: white;
+  padding: 10px;
+}
+
+.sports-filter button {
+  margin: 0 5px;
+  padding: 10px;
+  background-color: white;
+  color: #0e4d92;
+  border: 1px solid #0e4d92;
+  cursor: pointer;
+}
+
+.sports-filter button:hover {
+  background-color: #0e4d92;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.date-picker {
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-size: 24px !important;
+  margin-right: 10px;
+  background: none !important;
+  color: black !important;
+}
+
+.calendar-container {
+  position: relative;
+}
+
+.calendar-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.calendar-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.department-dropdown {
+  margin-left: auto;
+}
+
+.department-select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.match-section {
+  margin-bottom: 20px;
+}
+
+.match-title {
+  font-size: 20px;
+  background-color: #0e4d92;
+  color: white;
+  padding: 10px;
+  text-align: left; 
+}
+
+.match-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.team-name {
+  flex: 1;
+  text-align: center;
+}
+
+.score {
+  font-size: 24px;
+}
+
+.live-button, .end-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.end-button {
+  background-color: gray;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: -5px; 
+  top: 10%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.favorites-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #0e4d92;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.favorites-button:hover {
+  color: #083a6b !important;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1000;
+}
+
+.create-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #0e4d92;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #083a6b;
+}

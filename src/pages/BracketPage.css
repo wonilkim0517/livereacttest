@@ -1,0 +1,123 @@
+/* Global styles for light and dark themes */
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Styles specific to BracketPage */
+.bracket-page {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  background-color: #0e4d92;
+  color: white;
+}
+
+.group-section, .bracket-round {
+  margin-bottom: 20px;
+}
+
+.group-section h2 {
+  background-color: #0e4d92;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.bracket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: auto;
+}
+
+.bracket-match {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: 250px;
+  height: 98px;
+  margin: 0;
+}
+
+.bracket-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+.user-image {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.team-name {
+  flex: 1;
+  margin-left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.score {
+  margin-right: 15px;
+}

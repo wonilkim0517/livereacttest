@@ -1,0 +1,57 @@
+.main-page {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 20px;
+}
+
+.match-section {
+  margin-bottom: 20px;
+}
+
+.match-title {
+  font-size: 20px;
+  background-color: #0e4d92;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.match-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.team-name {
+  flex: 1;
+  text-align: center;
+}
+
+.score {
+  font-size: 24px;
+}
+
+.live-button, .end-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.end-button {
+  background-color: gray;
+}

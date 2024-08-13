@@ -1,0 +1,81 @@
+.settings-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.settings-page.light {
+  background-color: white;
+  color: black;
+}
+
+.settings-page.dark {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.settings-section {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.settings-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.font-size-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.theme-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme-option {
+  display: flex;
+  align-items: center;
+}
+
+.theme-option input {
+  margin-right: 10px;
+}
+
+.contact-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #0033a0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #002288;
+}
+
+.settings-section:last-child {
+  background-color: transparent;
+  box-shadow: none;
+}
